@@ -156,11 +156,12 @@ const ExpenseTracker = () => {
                                 </p>
                             </div>
 
-                            <div className="flex justify-between mt-2 text-sm">
+                            <div className="flex flex-col sm:flex-row sm:justify-between gap-2 mt-2 text-sm">
                                 <span className="bg-emerald-500/20 text-emerald-300 px-3 py-1 rounded-full capitalize">
                                     {item.category}
                                 </span>
-                                <span className="text-emerald-300">
+                                
+                                <span className="text-xs text-emerald-400">
                                     {new Date(item.date).toLocaleDateString("en-GB", {
                                         day: "2-digit",
                                         month: "short",
