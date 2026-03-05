@@ -18,7 +18,7 @@ const ExpenseTracker = () => {
     }
 
     const total = filteredData.reduce(
-        (sum, item) => sum + item.amount,
+        (sum, item) => sum + Number(item.amount),
         0
     )
 
