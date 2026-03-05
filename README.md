@@ -1,16 +1,101 @@
-# React + Vite
+# Expense Tracker App 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Expense Tracker Web App** built with **React and Context API**.  
+This project allows users to add expenses, filter them by category and date, and view the total spending in real time.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+https://expense-tracker-react-flax.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## React Compiler
+![App Preview](./preview.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Add new expenses
+- Filter expenses by category
+- Filter expenses by date (week / month)
+- Real-time total expense calculation
+- Clean and modern UI
+- Responsive layout
+- State management using React Context API
+- Smooth UI with Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Built With
+
+- React
+- Context API
+- Tailwind CSS
+- Vite
+- JavaScript (ES6+)
+
+## 📂 Project Structure
+
+```
+src
+ ├── components
+ │     └── ExpenseTracker.jsx
+ ├── context
+ │     └── ExpenseContext.jsx
+ ├── App.jsx
+ ├── main.jsx
+```
+
+## ⚡ Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/MuqtasidBhatti/expense-tracker-react.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open in browser
+
+```
+http://localhost:5173
+```
+
+## 🎯 Learning Objectives
+
+This project was built to practice:
+
+- React component structure
+- Global state management with Context API
+- Handling forms and user input
+- Filtering and calculating data
+- Building modern UI with Tailwind CSS
+- Deploying React apps with Vercel
+
+## 📌 Future Improvements
+
+- Edit and delete expenses
+- Charts and analytics
+- Local storage persistence
+- Dark/light mode toggle
+- Export expense report
+
+## 👨‍💻 Author
+
+**Muqtasid Bhatti**
+
+GitHub:  
+https://github.com/MuqtasidBhatti
+
+LinkedIn:  
+https://www.linkedin.com/in/muqtasid-bhatti-230525384/
+
+---
+
+⭐ If you like this project, consider giving it a star!
